@@ -1,7 +1,7 @@
 import ConsentManager from "consent_app/ConsentManager";
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import "./App.css";
-
+void React;
 // TypeScript now recognizes this import because of remotes.d.ts
 
 function App() {
