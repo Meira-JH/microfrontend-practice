@@ -17,7 +17,7 @@ describe("App", () => {
   });
 
   test("renders the mocked ConsentManager component", () => {
-    const { container } = render(<App />);
+    render(<App />);
 
     expect(screen.getByTestId("mock-consent")).toBeInTheDocument();
     expect(screen.getByText(/Mocked ConsentManager/i)).toBeInTheDocument();
